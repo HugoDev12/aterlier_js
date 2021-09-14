@@ -37,11 +37,11 @@ console.log(car["passengers"].length + " individus ont été aperçus à son bor
 
 //exo 6
 
-let a = 14;
+/* let a = 14;
 let b = 38;
 let product = [];
 console.log(a,b,product);
 product.unshift(a,b);
 product[7] = 50;
-console.log(product);
+console.log(product); */
 
