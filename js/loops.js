@@ -1,4 +1,4 @@
-let i = 0;
+/* let i = 0; */
 
 let students = [
     "Théo",
@@ -9,10 +9,10 @@ let students = [
     "Thimotée"
 ]; 
 
-while (i <= 3){
+/* while (i <= 3){
     console.log(students[i]);
     i++;
-}
+} */ 
 
 // ou
 
@@ -22,10 +22,16 @@ while (i <= 3){
 } */
 
 // ou
-
+/* 
 for (i=0;i<=students.length-1;i++){
     console.log(students[i]);
-}
+} */
 
 // ou i <= 3 dans les paramètres de la boucle for
 // la boucle for est mieux adaptée pour parcourir les tableaux!
+
+for (let student of students){
+    console.log(student);
+}
+
+// for of permet de ne pas mettre de compteur, il se fait automatiquement.
