@@ -30,6 +30,7 @@ for (i=0;i<=students.length-1;i++){
 // ou i <= 3 dans les paramètres de la boucle for
 // la boucle for est mieux adaptée pour parcourir les tableaux!
 
+<<<<<<< HEAD
 /* for (let student of students){
     console.log(student);
 } */
@@ -55,3 +56,10 @@ let human = {
 for (let key in human){
     console.log(key + " : " + human[key]); // pour afficher les clés (key) et ses valeurs (humzn[key])
 }
+=======
+for (let student of students){
+    console.log(student);
+}
+
+// for of permet de ne pas mettre de compteur, il se fait automatiquement.
+>>>>>>> bfefc0af2637a0c9bb1d481336d21ba827c8a369
