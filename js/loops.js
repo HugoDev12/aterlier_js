@@ -1,4 +1,4 @@
-/* let i = 0; */
+let i = 0;
 
 let students = [
     "Théo",
@@ -9,39 +9,38 @@ let students = [
     "Thimotée"
 ]; 
 
-/* while (i <= 3){
+while (i <= 3){
     console.log(students[i]);
     i++;
-} */ 
+} 
 
 // ou
 
-/* while (i <= students.length){
+while (i <= students.length){
     console.log(students[i]);
     i++;
-} */
+}
 
 // ou
-/* 
+
 for (i=0;i<=students.length-1;i++){
     console.log(students[i]);
-} */
+}
 
 // ou i <= 3 dans les paramètres de la boucle for
 // la boucle for est mieux adaptée pour parcourir les tableaux!
 
-<<<<<<< HEAD
-/* for (let student of students){
+for (let student of students){
     console.log(student);
-} */
+}
 
 // la boucle for of n'a pas besoin de compteur, elle le fait automatiquement.
 
-for (let index in students){
-    //console.log(index);
+ for (let index in students){
+    console.log(index);
     // ou
     console.log("Etudiant numéro : " + (parseInt(index) + 1) + " : " + students[index]); // va chercher les valeurs
-}                                      // ou Number(ind..)
+}                                   // ou Number(ind..)
 
 // va chercher l'index (les clés) aulieu de la valeur dans le tableau.
 // for in est plus intéressante/plus puissante.
@@ -56,10 +55,10 @@ let human = {
 for (let key in human){
     console.log(key + " : " + human[key]); // pour afficher les clés (key) et ses valeurs (humzn[key])
 }
-=======
+
 for (let student of students){
     console.log(student);
 }
 
 // for of permet de ne pas mettre de compteur, il se fait automatiquement.
->>>>>>> bfefc0af2637a0c9bb1d481336d21ba827c8a369
+
